@@ -32,11 +32,11 @@ they are not working on top of the most recent commit to the project.
 ## Merging
 
 To allow **Person 2** to replay their changes on top of the most
-recent version of the project, they should `merge` the changes from
+recent version of the project, they should merge the changes from
 the remote:
 
 - **Person 2** should pull and merge changes from GitHub (i.e., `git
-  pull`). This should **not** work smoothly
+  pull --no-edit`). This should **not** work smoothly
   because **Person 1** and **Person 2** edited the **same line of the
   same file**.
 - **Person 2** will then have to open the `README.md` file to make

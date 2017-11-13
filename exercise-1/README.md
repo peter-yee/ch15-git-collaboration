@@ -31,14 +31,14 @@ can prevent individuals from pushing to GitHub:
 At this point, GitHub should prevent **Person 2** from pushing because
 they are not working on top of the most recent commit to the project.
 
-## Rebasing
+## Merging
 
 To allow **Person 2** to replay their changes on top of the most
 recent version of the project, they should `merge` the changes from
 the remote:
 
 - **Person 2** should pull the changes from GitHub (i.e., `git
-  pull`). This should work smoothly because **Person 1** and **Person
+  pull --no-edit`). This should work smoothly because **Person 1** and **Person
   2** did not edit the same line of the same file
 - **Person 2** should now be able to push their (integrated) changes up to GitHub.
 
