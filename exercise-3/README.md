@@ -1,4 +1,5 @@
 # Exercise-3
+
 In this exercise, you'll practice creating and merging branches. You should complete this exercise by creating your own repository to work with.
 
 ## Set up
@@ -19,6 +20,7 @@ In this section, you'll create a new branch, and practice switching between bran
 
 
 ## Merging changes
+
 In this section, you'll switch branches, make changes, then create a merge conflict when you attempt to merge in changes.
 
 - Switch back to your master branch

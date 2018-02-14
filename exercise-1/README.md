@@ -2,7 +2,7 @@
 
 In this exercise, you'll practice creating a repository, adding
 collaborators, and integrating the work of others through
-`rebasing`. You should work in groups of two or more.
+_merging_. You should work in groups of two (or more).
 
 ## Set up
 

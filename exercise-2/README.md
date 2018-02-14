@@ -2,7 +2,7 @@
 
 In this exercise, you'll practice creating a repository, adding
 collaborators, and resolving any conflicts that may arise. You should
-work in groups of two or more.
+work in groups of two (or more).
 
 ## Set up
 
@@ -18,11 +18,11 @@ Here, we'll see how multiple people contributing to the same project
 can create conflicts when integrating changes.
 
 - **Person 1** should edit the `README.md` file by adding a line
-  (i.e., `line #2`)that says _My favorite candy is <candy>_
+  (i.e., `line #2`) that says _My favorite candy is <candy>_
 - **Person 1** should then `add` and `commit` those changes, then push
   those changes up to GitHub
 - thereafter **Person 2** should then edit the `README.md` file by adding a line
-  (i.e., `line #2`)that says _My favorite candy is <candy>_
+  (i.e., `line #2`) that says _My favorite candy is <candy>_
 - **Person 2** should then `add` and `commit` their changes, and
   attempt pushing up to GitHub
 
@@ -45,3 +45,11 @@ the remote:
   should add their changes to the file (with `git add README.md`) and then
   commit the changes (as usual, `git commit -m ...`)
 - **Person 2** should now be able to push their (integrated) changes up to GitHub.
+
+## Swap the roles
+
+Finally, you should swap the roles and try it again.  Now let person 2
+to change the file, and commit and push the changes.  Meanwhile, person 1 should
+edit the same lines, commit, pull, resolve conflicts, and finally
+push. 
+
