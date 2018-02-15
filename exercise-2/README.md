@@ -26,6 +26,8 @@ can create conflicts when integrating changes.
 - **Person 2** should then `add` and `commit` their changes, and
   attempt pushing up to GitHub
 
+  My favorite candy is Twix
+
 At this point, GitHub should prevent **Person 2** from pushing because
 they are not working on top of the most recent commit to the project.
 
@@ -51,5 +53,4 @@ the remote:
 Finally, you should swap the roles and try it again.  Now let person 2
 to change the file, and commit and push the changes.  Meanwhile, person 1 should
 edit the same lines, commit, pull, resolve conflicts, and finally
-push. 
-
+push.
